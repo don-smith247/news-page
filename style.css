@@ -1,0 +1,280 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.first-nav{
+    display: flex;
+    justify-content: space-around;
+}
+.first-ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    cursor: pointer;
+}
+.first-ul:hover{
+    color: hsl(233, 92%, 15%);
+    transition: 1.5s ease;
+}
+.image1 img{
+    height: 30vh;
+}
+.second-div{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 40px;
+}
+.image2{
+    height: 70vh;
+    width: 40%;
+    background-color: hsl(233, 92%, 15%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.txt1{
+    display: flex;
+    gap: 10px;
+    /* width: 100%; */
+    padding-top: 10%;
+
+}
+.image2 h2{
+    color: rgb(219, 219, 9);
+}
+.txth31{
+    color: white;
+}
+.txtp1{
+    color: rgb(124, 135, 145);
+}
+.txtp2{
+    color: rgb(124, 135, 145);
+}
+.txtp3{
+    color: rgb(124, 135, 145);
+}
+.txth32{
+    color: white;
+}
+.txth33{
+    color: white;
+}
+.firstline{
+    color: rgb(124, 135, 145);
+}
+.secondline{
+    color: rgb(124, 135, 145);
+}
+.readmore{
+    gap: 10px;
+}
+.bigh1{
+    font-size: 20px;
+}
+button{
+    height: 30px;
+    width: 120px;
+    color: white;
+    background-color: black;
+    border: none;
+    
+}
+.button1{
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.real-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carry{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+.Retro{
+    display: flex;
+    gap: 15px;
+}
+.Retro img{
+    width: 70px;
+    height: 15vh;
+    /* gap: 10px; */
+}
+.Top{
+    display: flex;
+    gap: 10px;
+}
+.Top img{
+    width: 70px;
+    height: 15vh;
+    /* gap: 10px; */
+}
+.Gaming{
+    display: flex;
+    gap: 15px;
+}
+.Gaming img{
+    width: 70px;
+    height: 15vh;
+    gap: 10px;
+}
+.line{
+    width: 35px;
+    height: 4px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+.menu{
+    display: none;
+}
+h6{
+    letter-spacing: 05px;
+}
+.the-ul{
+    display: none;
+}
+
+.btnnt{
+    width: 50px;
+    height: 30px;
+    background-color: white;
+   color: black;
+}
+@media screen and (max-width:950px) {
+    .you h2{
+        color: var(--tertiary-color);
+    }
+    h3{
+        color: var(--tertiary-color);
+    }
+    .pooo{
+        color: var(--tertiary-color);
+    }
+    .line{
+        background-color: var(--tertiary-color); 
+    }
+    .imh{
+        width: 75px;
+        height: 50px;
+        background-color: var(--tertiary-color);
+        padding-top: 5px;
+        padding-left: 3px;
+    }
+    .imh{
+        background-color: white;
+    }
+    .second-div{
+        flex-direction: column;
+    }
+    .image1{
+        flex-direction: column;
+    }
+    .carry{
+        flex-direction: column;
+    }
+    .txt1{
+        flex-direction: column;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-x: hidden;
+    }
+    .first-ul{
+        display: none;
+    }
+    .iiimg img{
+        width: 350px;
+        height: 30vh;
+    } 
+    .image2{
+        width: 350px;
+        height: 56vh;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    .go img{
+        width: 100px;
+    }
+    .you{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .Gaming{
+        align-items: center;
+        padding-left: 17px;
+    }
+    .Top{
+        align-items: center;
+    }
+    .Retro{
+        align-items: center;
+    }
+    .menu{
+        display: block;
+        align-items: center;
+        padding-top: 10px;
+    }
+    .first-nav{
+        padding-top: 10px;
+        gap: 100px;
+    }
+    button{
+        width: 150px;
+        height: 45px;
+        background-color: hsl(5, 85%, 63%);
+        border: none;
+        color: whitesmoke;
+        font-size: 20px;
+        font-weight: bolder;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    }
+    .the-ul{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        font-size: 25px;
+        gap: 40px;
+        text-align: center;
+        overflow-x: hidden;
+        height: 0px;
+        transition: 0.4s;
+        list-style: none;
+        color: white;
+    }
+    .the-ul li:hover{
+        transition: 0.5s ease;
+        transform: scale(1.2);
+    }
+    .toggle{
+        height: 400px;
+        padding-top: 40px;
+    }
+    
+:root{
+    --primary-color: hsl(5, 85%, 63%);
+    --secondary-color: hsl(35, 77%, 62%);
+    --new-color: white;
+    --tertiary-color: black;
+}
+.dark{
+    --primary-color: hsl(35, 77%, 62%);
+    --secondary-color: hsl(35, 77%, 62%);
+    --new-color: black;
+    --tertiary-color: white;
+    background-color: black;
+}
+}
